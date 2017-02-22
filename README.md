@@ -25,3 +25,11 @@ function shuffle(array) {
   return array;
 }
 ```
+
+## Generate random number between two numbers
+
+```js
+function _random(min, max) { // Generate random number between two numbers
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+```
